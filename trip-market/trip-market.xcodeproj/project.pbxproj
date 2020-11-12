@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40D31EB6255CAF2100208DDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D31EB5255CAF2100208DDB /* AppDelegate.swift */; };
+		40D31EB8255CAF2100208DDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D31EB7255CAF2100208DDB /* SceneDelegate.swift */; };
+		40D31EBA255CAF2100208DDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D31EB9255CAF2100208DDB /* ViewController.swift */; };
+		40D31EBD255CAF2100208DDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D31EBB255CAF2100208DDB /* Main.storyboard */; };
+		40D31EBF255CAF2600208DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D31EBE255CAF2600208DDB /* Assets.xcassets */; };
+		40D31EC2255CAF2600208DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D31EC0255CAF2600208DDB /* LaunchScreen.storyboard */; };
+		40D31ECA255CBA9600208DDB /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D31EC9255CBA9600208DDB /* Trip.swift */; };
+		40D31ECE255CBBB000208DDB /* TripDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D31ECD255CBBB000208DDB /* TripDAO.swift */; };
+		40D31ED2255CC0B000208DDB /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D31ED1255CC0B000208DDB /* TripTableViewCell.swift */; };
+		40D31ED7255CC2E600208DDB /* mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40D31ED4255CC2E600208DDB /* mars.jpg */; };
+		40D31ED8255CC2E600208DDB /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40D31ED5255CC2E600208DDB /* moon.jpg */; };
+		40D31ED9255CC2E600208DDB /* saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40D31ED6255CC2E600208DDB /* saturn.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40D31EB2255CAF2100208DDB /* trip-market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trip-market.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D31EB5255CAF2100208DDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40D31EB7255CAF2100208DDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40D31EB9255CAF2100208DDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40D31EBC255CAF2100208DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40D31EBE255CAF2600208DDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40D31EC1255CAF2600208DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40D31EC3255CAF2600208DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D31EC9255CBA9600208DDB /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		40D31ECD255CBBB000208DDB /* TripDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDAO.swift; sourceTree = "<group>"; };
+		40D31ED1255CC0B000208DDB /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		40D31ED4255CC2E600208DDB /* mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mars.jpg; path = ../../../../../../Downloads/mars.jpg; sourceTree = "<group>"; };
+		40D31ED5255CC2E600208DDB /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moon.jpg; path = ../../../../../../Downloads/moon.jpg; sourceTree = "<group>"; };
+		40D31ED6255CC2E600208DDB /* saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = saturn.jpg; path = ../../../../../../Downloads/saturn.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40D31EAF255CAF2100208DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40D31EA9255CAF2100208DDB = {
+			isa = PBXGroup;
+			children = (
+				40D31EB4255CAF2100208DDB /* trip-market */,
+				40D31EB3255CAF2100208DDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40D31EB3255CAF2100208DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40D31EB2255CAF2100208DDB /* trip-market.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40D31EB4255CAF2100208DDB /* trip-market */ = {
+			isa = PBXGroup;
+			children = (
+				40D31ECC255CBBA000208DDB /* dao */,
+				40D31ECB255CBAA200208DDB /* model */,
+				40D31EDA255CCAE700208DDB /* home */,
+				40D31EB5255CAF2100208DDB /* AppDelegate.swift */,
+				40D31EB7255CAF2100208DDB /* SceneDelegate.swift */,
+				40D31EBB255CAF2100208DDB /* Main.storyboard */,
+				40D31EBE255CAF2600208DDB /* Assets.xcassets */,
+				40D31EC0255CAF2600208DDB /* LaunchScreen.storyboard */,
+				40D31EC3255CAF2600208DDB /* Info.plist */,
+				40D31ED3255CC2C200208DDB /* assets */,
+			);
+			path = "trip-market";
+			sourceTree = "<group>";
+		};
+		40D31ECB255CBAA200208DDB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				40D31EC9255CBA9600208DDB /* Trip.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		40D31ECC255CBBA000208DDB /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				40D31ECD255CBBB000208DDB /* TripDAO.swift */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		40D31ED3255CC2C200208DDB /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				40D31ED4255CC2E600208DDB /* mars.jpg */,
+				40D31ED5255CC2E600208DDB /* moon.jpg */,
+				40D31ED6255CC2E600208DDB /* saturn.jpg */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		40D31EDA255CCAE700208DDB /* home */ = {
+			isa = PBXGroup;
+			children = (
+				40D31EDC255CCAF400208DDB /* view */,
+				40D31EDB255CCAED00208DDB /* controller */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		40D31EDB255CCAED00208DDB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				40D31EB9255CAF2100208DDB /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		40D31EDC255CCAF400208DDB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				40D31ED1255CC0B000208DDB /* TripTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40D31EB1255CAF2100208DDB /* trip-market */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D31EC6255CAF2600208DDB /* Build configuration list for PBXNativeTarget "trip-market" */;
+			buildPhases = (
+				40D31EAE255CAF2100208DDB /* Sources */,
+				40D31EAF255CAF2100208DDB /* Frameworks */,
+				40D31EB0255CAF2100208DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "trip-market";
+			productName = "trip-market";
+			productReference = 40D31EB2255CAF2100208DDB /* trip-market.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40D31EAA255CAF2100208DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Angelo Ferreira";
+				TargetAttributes = {
+					40D31EB1255CAF2100208DDB = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 40D31EAD255CAF2100208DDB /* Build configuration list for PBXProject "trip-market" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40D31EA9255CAF2100208DDB;
+			productRefGroup = 40D31EB3255CAF2100208DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40D31EB1255CAF2100208DDB /* trip-market */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40D31EB0255CAF2100208DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D31EC2255CAF2600208DDB /* LaunchScreen.storyboard in Resources */,
+				40D31ED8255CC2E600208DDB /* moon.jpg in Resources */,
+				40D31EBF255CAF2600208DDB /* Assets.xcassets in Resources */,
+				40D31ED7255CC2E600208DDB /* mars.jpg in Resources */,
+				40D31ED9255CC2E600208DDB /* saturn.jpg in Resources */,
+				40D31EBD255CAF2100208DDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40D31EAE255CAF2100208DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D31ED2255CC0B000208DDB /* TripTableViewCell.swift in Sources */,
+				40D31ECA255CBA9600208DDB /* Trip.swift in Sources */,
+				40D31EBA255CAF2100208DDB /* ViewController.swift in Sources */,
+				40D31EB6255CAF2100208DDB /* AppDelegate.swift in Sources */,
+				40D31ECE255CBBB000208DDB /* TripDAO.swift in Sources */,
+				40D31EB8255CAF2100208DDB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40D31EBB255CAF2100208DDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D31EBC255CAF2100208DDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40D31EC0255CAF2600208DDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D31EC1255CAF2600208DDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40D31EC4255CAF2600208DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40D31EC5255CAF2600208DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40D31EC7255CAF2600208DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "trip-market/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "angelo-zero.trip-market";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40D31EC8255CAF2600208DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "trip-market/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "angelo-zero.trip-market";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40D31EAD255CAF2100208DDB /* Build configuration list for PBXProject "trip-market" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D31EC4255CAF2600208DDB /* Debug */,
+				40D31EC5255CAF2600208DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D31EC6255CAF2600208DDB /* Build configuration list for PBXNativeTarget "trip-market" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D31EC7255CAF2600208DDB /* Debug */,
+				40D31EC8255CAF2600208DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40D31EAA255CAF2100208DDB /* Project object */;
+}
